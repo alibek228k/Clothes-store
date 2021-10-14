@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background-color: azure;*/
+    background: rgb(207,233,108);
+    background: radial-gradient(circle, rgba(207,233,108,1) 0%, rgba(150,159,230,1) 26%, rgba(79,224,224,1) 45%, rgba(92,150,198,1) 60%, rgba(130,171,209,1) 67%, rgba(100,168,222,1) 80%, rgba(14,92,168,1) 93%);
+}
+
+.container{
+    width: 750px;
+    height: 500px;
+    border: 1px solid;
+    margin-top: 50px;
+    background-image: linear-gradient( 135deg, #5EFCE8 10%, #736EFE 100%);
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    justify-content:space-around;
+}
+
+.container h1{
+    text-align: center;
+    background: -webkit-linear-gradient(#70d6e9, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.first-row{
+    display: flex;
+}
+
+.owner{
+    width: 100%;
+    margin-right: 40px;
+}
+
+.input-field{
+    border: 1px solid #999;
+}
+
+.input-field input{
+    width: 100%;
+    border:none;
+    outline: none;
+    padding: 10px;
+}
+
+.selection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.selection select{
+    padding: 10px 20px;
+}
+
+a{
+
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    background-image: linear-gradient(to right, #2BC0E4 0%, #EAECC6  51%, #2BC0E4  100%)
+}
+
+a:hover{
+    /*background-color: dodgerblue;*/
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.cards img{
+    width: 100px;
+}
+
+
+
+.btn-grad {background-image: linear-gradient(to right, #2BC0E4 0%, #EAECC6  51%, #2BC0E4  100%)}
+.btn-grad {
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+.btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}

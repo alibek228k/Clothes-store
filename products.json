@@ -1,0 +1,60 @@
+{
+    "status": "success",
+    "items": [{
+            "id": 1,
+            "title": "Mango kids",
+            "price": 135,
+            "image": "./assets/images/c1-kids-506x730.jpg"
+        },
+        {
+            "id": 2,
+            "title": "MSGM kids",
+            "price": 950,
+            "image": "./assets/images/c2-kids-506x730.jpg"
+        },
+        {
+            "id": 3,
+            "title": "Stella McCartney",
+            "price": 750,
+            "image": "./assets/images/c3-kids-506x730.jpg"
+        },
+        {
+            "id": 4,
+            "title": "Tommy Hilfiger",
+            "price": 999,
+            "image": "./assets/images/p1-kids-506x730.jpg"
+        },
+        {
+            "id": 5,
+            "title": "Sports shorts",
+            "price": 250,
+            "image": "./assets/images/p2-kids-506x730.jpg"
+
+        },
+        {
+            "id": 6,
+            "title": "Guess",
+            "price": 850,
+            "image": "./assets/images/p3-kids-506x730.jpg"
+
+        },
+        {
+            "id": 7,
+            "title": "Nike",
+            "price": 600,
+            "image": "./assets/images/f1-kids-506x730.jpeg"
+        },
+        {
+            "id": 8,
+            "title": "adidas",
+            "price": 350,
+            "image": "./assets/images/f2-kids-506x730.jpeg"
+        },
+        {
+            "id": 9,
+            "title": "Rebook",
+            "price": 799,
+            "image": "./assets/images/f3-kids-506x730.jpeg"
+        }
+    ]
+}
